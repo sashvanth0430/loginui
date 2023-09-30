@@ -98,7 +98,7 @@ class LoginScreen extends StatelessWidget {
                      color: Colors.redAccent
                  ),
                  labelText: 'Email Address',
-                 labelStyle: TextStyle( color: primaryColor,fontFamily: 'Poppins', fontSize: 18,),
+                 labelStyle: TextStyle( color: Colors.black,fontFamily: 'Poppins', fontSize: 18,),
 
              ),
              ),
@@ -119,7 +119,7 @@ class LoginScreen extends StatelessWidget {
                     color: Colors.redAccent
                 ),
                 labelText: 'Password',
-                labelStyle: TextStyle( color: primaryColor,fontFamily: 'Poppins', fontSize: 18,),
+                labelStyle: TextStyle( color: Colors.black,fontFamily: 'Poppins', fontSize: 18,),
 
               ),
             ),
