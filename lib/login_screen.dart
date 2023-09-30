@@ -139,7 +139,7 @@ class LoginScreen extends StatelessWidget {
                child: TextButton(
                    onPressed: (){},
                    style: TextButton.styleFrom(
-                   backgroundColor: primaryColor.withOpacity(0.7),
+                   backgroundColor: primaryColor.withOpacity(0.8),
                      shape: const RoundedRectangleBorder(
                          borderRadius: BorderRadius.all(Radius.circular(15))
                      )
