@@ -129,7 +129,7 @@ class LoginScreen extends StatelessWidget {
           alignment: Alignment.centerRight,
             child: TextButton(
                 onPressed: (){},
-                child: Text('$forgettext', style: TextStyle(fontFamily: 'Poppins',color: Colors.black),)
+                child: const Text(forgettext, style: TextStyle(fontFamily: 'Poppins',color: Colors.black),)
             ),
         ),
            Center(
@@ -140,12 +140,12 @@ class LoginScreen extends StatelessWidget {
                    onPressed: (){},
                    style: TextButton.styleFrom(
                    backgroundColor: primaryColor.withOpacity(0.7),
-                     shape: RoundedRectangleBorder(
+                     shape: const RoundedRectangleBorder(
                          borderRadius: BorderRadius.all(Radius.circular(15))
                      )
                ),
                    
-                   child: Text('$LoginButton', style: TextStyle(fontFamily: 'Poppins',color: Colors.white,fontSize:24,fontWeight: FontWeight.w500,letterSpacing: 1,wordSpacing: 1),)
+                   child: const Text(LoginButton, style: TextStyle(fontFamily: 'Poppins',color: Colors.white,fontSize:24,fontWeight: FontWeight.w500,letterSpacing: 1,wordSpacing: 1),)
                ),
              ),
            ),
@@ -154,10 +154,10 @@ class LoginScreen extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text("Dont' have an account?",
+              const Text("Dont' have an account?",
               style: TextStyle(fontFamily: 'Poppins',),
               ),
-              TextButton(onPressed: (){}, child: Text('Create an Account',style: TextStyle(fontFamily: 'Poppins',color: primaryColor,fontSize: 16),))
+              TextButton(onPressed: (){}, child: const Text('Create an Account',style: TextStyle(fontFamily: 'Poppins',color: primaryColor,fontSize: 16),))
             ],
           )
      ],
